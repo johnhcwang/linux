@@ -36,6 +36,7 @@
 
 		sys_boot_status {
 			gpios = <&gpio ASPEED_GPIO(D, 5) GPIO_ACTIVE_LOW>;
+			default-state = "keep";
 		};
 
 		attention {
